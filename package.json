@@ -1,0 +1,25 @@
+{
+  "name": "360maker",
+  "version": "1.0.0",
+  "description": "",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "photo-sphere-viewer": "^4.7.3"
+  },
+  "devDependencies": {
+    "@parcel/config-default": "^2.7.0",
+    "parcel": "^2.7.0",
+    "parcel-reporter-static-files-copy": "^1.4.0"
+  },
+  "staticFiles": {
+    "staticPath": "public",
+    "staticOutPath": "public"
+  }
+}
